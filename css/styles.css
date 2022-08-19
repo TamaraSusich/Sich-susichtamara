@@ -116,8 +116,22 @@ header{
     }
 
 /* html self proyects*/
-/* contenido principal de pagina*/
-
+.card-self{
+    margin: 1.5rem;
+    padding: 1rem;
+    margin-left: 30%;
+}
+/*boton back en wavy y candle*/
+.back-self{
+    font-size: 20px;
+    font-family:sans-serif;
+    border: 2px solid  rgb(167, 164, 164) ;
+    border-radius: 10px;
+    background-color:  rgb(167, 164, 164);
+    margin: 50%;
+    padding: 1%;
+}
+/* contenido principal de pagina candle*/
 .candle{
     margin: 30px;
     padding: 20px;
@@ -156,6 +170,7 @@ header{
     text-align:justify;
     margin-top: 15px;
 }
+/*contenido principal de la pagina wavy*/
 .wavy{
     margin: 30px;
     padding: 20px;
