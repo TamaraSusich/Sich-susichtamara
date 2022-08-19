@@ -506,6 +506,13 @@ div .jewlry__img{
  .img__w_dos{
     display: none;
  }
+ .card-self{
+    width: 1%;
+    margin: 2px;
+    padding: 2px;
+    margin-left: 0%;
+    
+ }
  /*seccion collaborative-projects*/
  .img__ce_uno{
     display: none;
