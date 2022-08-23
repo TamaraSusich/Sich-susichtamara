@@ -26,12 +26,7 @@ header{
     margin-left: 30px;
     margin-top: 100px;
     padding: 20px;
-    transition: all 2s;
-}
-.navbar-nav:hover{
-    width: 300px ;
-    height: 100px;
-}
+ }
 /*contenido principal*/
  .img__principal{
         border: 3px solid  rgb(167, 164, 164);
@@ -131,7 +126,6 @@ header{
     margin: 50%;
     padding: 1%;
 }
-
 /* contenido principal de pagina candle*/
 .candle{
     margin: 30px;
@@ -505,6 +499,10 @@ div .jewlry__img{
     .menu{
         display: grid;
     }
+    .navbar-nav{
+        transition: none;
+    }
+ 
     header nav ul li{
         display: inline-flex;
         margin: auto;
@@ -521,7 +519,7 @@ div .jewlry__img{
         flex-direction: column;
     }
     .footer{
-        padding: 10px;
+        display: none;
     }
 
  /*seccion self projects*/
